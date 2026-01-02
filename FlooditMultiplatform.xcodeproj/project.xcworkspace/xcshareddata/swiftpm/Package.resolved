@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "prism",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/aheze/Prism",
+      "state" : {
+        "branch" : "main",
+        "revision" : "8f74e5b1b8b23c0c0c5bc963e4738c3be89af776"
+      }
+    }
+  ],
+  "version" : 2
+}

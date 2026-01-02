@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E80033462D3FE35700CD8EC0 /* GameLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80033452D3FE35700CD8EC0 /* GameLevel.swift */; };
+		E82425912D366DF80094D1F8 /* FlooditMultiplatformApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82425902D366DF80094D1F8 /* FlooditMultiplatformApp.swift */; };
+		E82425952D366DFB0094D1F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E82425942D366DFB0094D1F8 /* Assets.xcassets */; };
+		E82425992D366DFB0094D1F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E82425982D366DFB0094D1F8 /* Preview Assets.xcassets */; };
+		E82425A52D3670970094D1F8 /* PrismColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82425A42D3670970094D1F8 /* PrismColorView.swift */; };
+		E82425A72D3670BF0094D1F8 /* PrismGlassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82425A62D3670BF0094D1F8 /* PrismGlassView.swift */; };
+		E82425A92D3670D00094D1F8 /* PrismGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82425A82D3670D00094D1F8 /* PrismGradientView.swift */; };
+		E82425AB2D3670DD0094D1F8 /* PrismImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82425AA2D3670DD0094D1F8 /* PrismImageView.swift */; };
+		E82425AD2D3670EE0094D1F8 /* PrismCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82425AC2D3670EE0094D1F8 /* PrismCanvas.swift */; };
+		E82425AF2D3671090094D1F8 /* PrismConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82425AE2D3671090094D1F8 /* PrismConfiguration.swift */; };
+		E82425B12D3671160094D1F8 /* PrismEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82425B02D3671160094D1F8 /* PrismEffect.swift */; };
+		E82425B32D3671240094D1F8 /* PrismView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82425B22D3671240094D1F8 /* PrismView.swift */; };
+		E82425B52D3671560094D1F8 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82425B42D3671560094D1F8 /* Utilities.swift */; };
+		E82425BB2D3673140094D1F8 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82425BA2D3673140094D1F8 /* GameModel.swift */; };
+		E82425BD2D3673180094D1F8 /* ThemeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82425BC2D3673180094D1F8 /* ThemeExtension.swift */; };
+		E82425BF2D36731C0094D1F8 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82425BE2D36731C0094D1F8 /* ButtonStyle.swift */; };
+		E8479B8E2D4C834100BF161C /* TimeAttack.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8479B8D2D4C834100BF161C /* TimeAttack.swift */; };
+		E84C07A92D64E0AA00873CEE /* SolveBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84C07A82D64E0AA00873CEE /* SolveBoard.swift */; };
+		E85A54E92D4F2B1000EB1348 /* ResetGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85A54E82D4F2B1000EB1348 /* ResetGame.swift */; };
+		E85A54EE2D4F2BC100EB1348 /* InitGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85A54ED2D4F2BC100EB1348 /* InitGame.swift */; };
+		E85A54F02D4F2C0E00EB1348 /* InitAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85A54EF2D4F2C0E00EB1348 /* InitAnimations.swift */; };
+		E85A54F22D4F2C5800EB1348 /* AnimateEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85A54F12D4F2C5800EB1348 /* AnimateEffects.swift */; };
+		E85A54F42D4F2C8600EB1348 /* AnimateCubes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85A54F32D4F2C8600EB1348 /* AnimateCubes.swift */; };
+		E87FD4A92D39032500DB3D6E /* TopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87FD4A82D39032500DB3D6E /* TopBar.swift */; };
+		E89DC6E32DA7D31F00F74473 /* GamenInstruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89DC6E22DA7D31F00F74473 /* GamenInstruction.swift */; };
+		E89E109C2D74070D00E39148 /* SettingCenterInTopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89E109B2D74070D00E39148 /* SettingCenterInTopBar.swift */; };
+		E8A186602D55045B008C791B /* showTimeResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A1865F2D55045B008C791B /* showTimeResult.swift */; };
+		E8C71BCA2D44E8E1006F1992 /* ColorMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C71BC92D44E8E1006F1992 /* ColorMode.swift */; };
+		E8D916342D9C2FC20022EE36 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D916332D9C2FC20022EE36 /* CustomColor.swift */; };
+		E8DB82BA2D900B8F00B4D8BD /* ColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DB82B92D900B8F00B4D8BD /* ColorPicker.swift */; };
+		E8E4F18E2D76067D006DD257 /* SlimeCube.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E4F18D2D76067D006DD257 /* SlimeCube.swift */; };
+		E8E4F1902D7606AE006DD257 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E4F18F2D7606AE006DD257 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E80033452D3FE35700CD8EC0 /* GameLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLevel.swift; sourceTree = "<group>"; };
+		E824258D2D366DF80094D1F8 /* FlooditMultiplatform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlooditMultiplatform.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E82425902D366DF80094D1F8 /* FlooditMultiplatformApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlooditMultiplatformApp.swift; sourceTree = "<group>"; };
+		E82425942D366DFB0094D1F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E82425962D366DFB0094D1F8 /* FlooditMultiplatform.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FlooditMultiplatform.entitlements; sourceTree = "<group>"; };
+		E82425982D366DFB0094D1F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E82425A42D3670970094D1F8 /* PrismColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrismColorView.swift; sourceTree = "<group>"; };
+		E82425A62D3670BF0094D1F8 /* PrismGlassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrismGlassView.swift; sourceTree = "<group>"; };
+		E82425A82D3670D00094D1F8 /* PrismGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrismGradientView.swift; sourceTree = "<group>"; };
+		E82425AA2D3670DD0094D1F8 /* PrismImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrismImageView.swift; sourceTree = "<group>"; };
+		E82425AC2D3670EE0094D1F8 /* PrismCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrismCanvas.swift; sourceTree = "<group>"; };
+		E82425AE2D3671090094D1F8 /* PrismConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrismConfiguration.swift; sourceTree = "<group>"; };
+		E82425B02D3671160094D1F8 /* PrismEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrismEffect.swift; sourceTree = "<group>"; };
+		E82425B22D3671240094D1F8 /* PrismView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrismView.swift; sourceTree = "<group>"; };
+		E82425B42D3671560094D1F8 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		E82425BA2D3673140094D1F8 /* GameModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		E82425BC2D3673180094D1F8 /* ThemeExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeExtension.swift; sourceTree = "<group>"; };
+		E82425BE2D36731C0094D1F8 /* ButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
+		E8479B8D2D4C834100BF161C /* TimeAttack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeAttack.swift; sourceTree = "<group>"; };
+		E84C07A82D64E0AA00873CEE /* SolveBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolveBoard.swift; sourceTree = "<group>"; };
+		E85A54E82D4F2B1000EB1348 /* ResetGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetGame.swift; sourceTree = "<group>"; };
+		E85A54ED2D4F2BC100EB1348 /* InitGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitGame.swift; sourceTree = "<group>"; };
+		E85A54EF2D4F2C0E00EB1348 /* InitAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitAnimations.swift; sourceTree = "<group>"; };
+		E85A54F12D4F2C5800EB1348 /* AnimateEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateEffects.swift; sourceTree = "<group>"; };
+		E85A54F32D4F2C8600EB1348 /* AnimateCubes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateCubes.swift; sourceTree = "<group>"; };
+		E87FD4A82D39032500DB3D6E /* TopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBar.swift; sourceTree = "<group>"; };
+		E89DC6E22DA7D31F00F74473 /* GamenInstruction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamenInstruction.swift; sourceTree = "<group>"; };
+		E89E109B2D74070D00E39148 /* SettingCenterInTopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCenterInTopBar.swift; sourceTree = "<group>"; };
+		E8A1865F2D55045B008C791B /* showTimeResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showTimeResult.swift; sourceTree = "<group>"; };
+		E8C71BC92D44E8E1006F1992 /* ColorMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorMode.swift; sourceTree = "<group>"; };
+		E8D916332D9C2FC20022EE36 /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
+		E8DB82B92D900B8F00B4D8BD /* ColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPicker.swift; sourceTree = "<group>"; };
+		E8E4F18D2D76067D006DD257 /* SlimeCube.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlimeCube.swift; sourceTree = "<group>"; };
+		E8E4F18F2D7606AE006DD257 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E824258A2D366DF80094D1F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E82425842D366DF80094D1F8 = {
+			isa = PBXGroup;
+			children = (
+				E82425A22D3670650094D1F8 /* Prism */,
+				E824258F2D366DF80094D1F8 /* FlooditMultiplatform */,
+				E824258E2D366DF80094D1F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E824258E2D366DF80094D1F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E824258D2D366DF80094D1F8 /* FlooditMultiplatform.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E824258F2D366DF80094D1F8 /* FlooditMultiplatform */ = {
+			isa = PBXGroup;
+			children = (
+				E82425902D366DF80094D1F8 /* FlooditMultiplatformApp.swift */,
+				E8E4F18F2D7606AE006DD257 /* ContentView.swift */,
+				E89DC6E22DA7D31F00F74473 /* GamenInstruction.swift */,
+				E8DB82B92D900B8F00B4D8BD /* ColorPicker.swift */,
+				E87FD4A82D39032500DB3D6E /* TopBar.swift */,
+				E89E109B2D74070D00E39148 /* SettingCenterInTopBar.swift */,
+				E8E4F18D2D76067D006DD257 /* SlimeCube.swift */,
+				E80033452D3FE35700CD8EC0 /* GameLevel.swift */,
+				E8479B8D2D4C834100BF161C /* TimeAttack.swift */,
+				E8A1865F2D55045B008C791B /* showTimeResult.swift */,
+				E85A54EB2D4F2B4800EB1348 /* GameModel */,
+				E85A54EC2D4F2B7B00EB1348 /* Color_ThemeExtension */,
+				E82425942D366DFB0094D1F8 /* Assets.xcassets */,
+				E82425962D366DFB0094D1F8 /* FlooditMultiplatform.entitlements */,
+				E82425972D366DFB0094D1F8 /* Preview Content */,
+			);
+			path = FlooditMultiplatform;
+			sourceTree = "<group>";
+		};
+		E82425972D366DFB0094D1F8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E82425982D366DFB0094D1F8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E82425A22D3670650094D1F8 /* Prism */ = {
+			isa = PBXGroup;
+			children = (
+				E82425A32D36707D0094D1F8 /* Templates */,
+				E82425AC2D3670EE0094D1F8 /* PrismCanvas.swift */,
+				E82425AE2D3671090094D1F8 /* PrismConfiguration.swift */,
+				E82425B02D3671160094D1F8 /* PrismEffect.swift */,
+				E82425B22D3671240094D1F8 /* PrismView.swift */,
+				E82425B42D3671560094D1F8 /* Utilities.swift */,
+			);
+			path = Prism;
+			sourceTree = "<group>";
+		};
+		E82425A32D36707D0094D1F8 /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				E82425A42D3670970094D1F8 /* PrismColorView.swift */,
+				E82425A62D3670BF0094D1F8 /* PrismGlassView.swift */,
+				E82425A82D3670D00094D1F8 /* PrismGradientView.swift */,
+				E82425AA2D3670DD0094D1F8 /* PrismImageView.swift */,
+			);
+			path = Templates;
+			sourceTree = "<group>";
+		};
+		E85A54EB2D4F2B4800EB1348 /* GameModel */ = {
+			isa = PBXGroup;
+			children = (
+				E82425BA2D3673140094D1F8 /* GameModel.swift */,
+				E84C07A82D64E0AA00873CEE /* SolveBoard.swift */,
+				E85A54E82D4F2B1000EB1348 /* ResetGame.swift */,
+				E85A54ED2D4F2BC100EB1348 /* InitGame.swift */,
+				E85A54EF2D4F2C0E00EB1348 /* InitAnimations.swift */,
+				E85A54F12D4F2C5800EB1348 /* AnimateEffects.swift */,
+				E85A54F32D4F2C8600EB1348 /* AnimateCubes.swift */,
+			);
+			path = GameModel;
+			sourceTree = "<group>";
+		};
+		E85A54EC2D4F2B7B00EB1348 /* Color_ThemeExtension */ = {
+			isa = PBXGroup;
+			children = (
+				E8C71BC92D44E8E1006F1992 /* ColorMode.swift */,
+				E82425BC2D3673180094D1F8 /* ThemeExtension.swift */,
+				E82425BE2D36731C0094D1F8 /* ButtonStyle.swift */,
+				E8D916332D9C2FC20022EE36 /* CustomColor.swift */,
+			);
+			path = Color_ThemeExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E824258C2D366DF80094D1F8 /* FlooditMultiplatform */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E824259C2D366DFB0094D1F8 /* Build configuration list for PBXNativeTarget "FlooditMultiplatform" */;
+			buildPhases = (
+				E82425892D366DF80094D1F8 /* Sources */,
+				E824258A2D366DF80094D1F8 /* Frameworks */,
+				E824258B2D366DF80094D1F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlooditMultiplatform;
+			packageProductDependencies = (
+			);
+			productName = FlooditMultiplatform;
+			productReference = E824258D2D366DF80094D1F8 /* FlooditMultiplatform.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E82425852D366DF80094D1F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					E824258C2D366DF80094D1F8 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = E82425882D366DF80094D1F8 /* Build configuration list for PBXProject "FlooditMultiplatform" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E82425842D366DF80094D1F8;
+			packageReferences = (
+			);
+			productRefGroup = E824258E2D366DF80094D1F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E824258C2D366DF80094D1F8 /* FlooditMultiplatform */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E824258B2D366DF80094D1F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E82425992D366DFB0094D1F8 /* Preview Assets.xcassets in Resources */,
+				E82425952D366DFB0094D1F8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E82425892D366DF80094D1F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E89E109C2D74070D00E39148 /* SettingCenterInTopBar.swift in Sources */,
+				E8A186602D55045B008C791B /* showTimeResult.swift in Sources */,
+				E8E4F1902D7606AE006DD257 /* ContentView.swift in Sources */,
+				E82425A52D3670970094D1F8 /* PrismColorView.swift in Sources */,
+				E82425BD2D3673180094D1F8 /* ThemeExtension.swift in Sources */,
+				E85A54EE2D4F2BC100EB1348 /* InitGame.swift in Sources */,
+				E82425BF2D36731C0094D1F8 /* ButtonStyle.swift in Sources */,
+				E82425B52D3671560094D1F8 /* Utilities.swift in Sources */,
+				E82425912D366DF80094D1F8 /* FlooditMultiplatformApp.swift in Sources */,
+				E8DB82BA2D900B8F00B4D8BD /* ColorPicker.swift in Sources */,
+				E8479B8E2D4C834100BF161C /* TimeAttack.swift in Sources */,
+				E85A54E92D4F2B1000EB1348 /* ResetGame.swift in Sources */,
+				E85A54F22D4F2C5800EB1348 /* AnimateEffects.swift in Sources */,
+				E82425A92D3670D00094D1F8 /* PrismGradientView.swift in Sources */,
+				E84C07A92D64E0AA00873CEE /* SolveBoard.swift in Sources */,
+				E82425AD2D3670EE0094D1F8 /* PrismCanvas.swift in Sources */,
+				E8E4F18E2D76067D006DD257 /* SlimeCube.swift in Sources */,
+				E8C71BCA2D44E8E1006F1992 /* ColorMode.swift in Sources */,
+				E82425B12D3671160094D1F8 /* PrismEffect.swift in Sources */,
+				E82425B32D3671240094D1F8 /* PrismView.swift in Sources */,
+				E85A54F02D4F2C0E00EB1348 /* InitAnimations.swift in Sources */,
+				E82425AB2D3670DD0094D1F8 /* PrismImageView.swift in Sources */,
+				E82425AF2D3671090094D1F8 /* PrismConfiguration.swift in Sources */,
+				E8D916342D9C2FC20022EE36 /* CustomColor.swift in Sources */,
+				E82425A72D3670BF0094D1F8 /* PrismGlassView.swift in Sources */,
+				E89DC6E32DA7D31F00F74473 /* GamenInstruction.swift in Sources */,
+				E82425BB2D3673140094D1F8 /* GameModel.swift in Sources */,
+				E80033462D3FE35700CD8EC0 /* GameLevel.swift in Sources */,
+				E85A54F42D4F2C8600EB1348 /* AnimateCubes.swift in Sources */,
+				E87FD4A92D39032500DB3D6E /* TopBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E824259A2D366DFB0094D1F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E824259B2D366DFB0094D1F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E824259D2D366DFB0094D1F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FlooditMultiplatform/FlooditMultiplatform.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FlooditMultiplatform/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Flood Fill";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.board-games";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hung.FlooditMultiplatform;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E824259E2D366DFB0094D1F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FlooditMultiplatform/FlooditMultiplatform.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FlooditMultiplatform/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Flood Fill";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.board-games";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hung.FlooditMultiplatform;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E82425882D366DF80094D1F8 /* Build configuration list for PBXProject "FlooditMultiplatform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E824259A2D366DFB0094D1F8 /* Debug */,
+				E824259B2D366DFB0094D1F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E824259C2D366DFB0094D1F8 /* Build configuration list for PBXNativeTarget "FlooditMultiplatform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E824259D2D366DFB0094D1F8 /* Debug */,
+				E824259E2D366DFB0094D1F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E82425852D366DF80094D1F8 /* Project object */;
+}
